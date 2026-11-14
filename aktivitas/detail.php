@@ -20,6 +20,8 @@ $base_url = '/lokasapa/';
 // Ambil id aktivitas
 $id_aktivitas = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
+// agis
+
 // Query detail aktivitas
 $query = "SELECT a.*, k.nama_kategori, kom.* 
           FROM aktivitas a
